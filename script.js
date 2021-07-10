@@ -41,6 +41,7 @@ a.addEventListener("click",()=>{
             `
         }
             document.querySelector('#out').innerHTML=outputContainer
+            document.querySelector("#stuff").innerHTML=""
         })
     }else{
         outputContainer=`
