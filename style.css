@@ -6,6 +6,7 @@
 }
 body {
 	padding: 0;
+	background-color: rgba(0,0,0,.8);
 	margin: 0;
 }
 .container {
@@ -207,3 +208,10 @@ nav .icon-burger .line {
 
 }
 
+footer {
+    background-color: rgba(0,0,0,1);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    max-height: 100px;
+}
