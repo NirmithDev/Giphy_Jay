@@ -10,7 +10,7 @@ a.addEventListener("click",()=>{
     let b = document.getElementById("searchs").value.trim();
     console.log(b)
     if(b!=""){
-        let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&q=`;
+        let url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=20&q=`;
     url = url.concat(b)
     console.log(url)
     fetch(url).then(res =>res.json()).then(content=>{
@@ -64,4 +64,4 @@ a.addEventListener("click",()=>{
     
 })
 
-//
+//add more functionality to the the options for choosing
